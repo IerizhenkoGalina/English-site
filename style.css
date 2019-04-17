@@ -1,0 +1,126 @@
+html,body {
+	
+
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+  
+}
+header {
+	text-align: center;
+	background-color: #FFEA73; 
+	border: 10px dotted red;
+	border-radius: 30px;
+}
+img {
+	width: 100%;
+	height: 400px;
+}
+.constructor{
+
+}
+#table {
+	border: 2px solid black;
+	text-align: center;
+	background-image: url('https://rb.ru/static/rb_test/img/44/index.jpg');
+    background-repeat: repeat;
+}
+
+th {
+    border: 2px solid black;
+}
+
+
+td {
+    border: 2px solid black;
+    width: 300px;
+}
+.text {
+	text-align: center;
+	color: #000;
+}
+.containers {
+    background-color: pink;
+    width: 100%; 
+
+
+
+}
+#langv {
+	width: 50%;
+	height: 200px;
+	position: relative;
+	left: 20px;
+	
+}
+.gallery {
+	 margin-top: 5px;
+	 margin-bottom: 5px;
+	 display: flex;/*изображения галереи распределятся по странице по горизонтали*/
+	 flex-wrap: wrap;/*равномерно распредиляются по странице и переносятся на другую страницу веб-страницы*/
+	 justify-content:center;/*наша галерея элементов будет распологаться по центру*/
+}
+
+.gallery-item {
+      margin: 5px;
+}
+
+.gallery-item .thumbnail {
+	  border: 5px solid #fff;
+	  width: 180px;
+	  height: 180px;
+}
+a {
+	  text-align: center;
+}
+footer {
+		text-align: center;
+		background: green;
+}
+.area {
+
+		width: 300px;
+		height: 300px;
+		background-color: blue;
+		box-shadow: -10px -10px black;
+}
+.area1 {
+
+		width: 300px;
+		height: 100px;
+		background-color: green;
+		box-shadow: 10px 10px black;
+}
+.area2 {
+
+		width: 300px;
+		height: 300px;
+		border-radius: 150px;
+		background-color: pink;
+		box-shadow: 10px 10px black;
+}
+#figure {
+		  margin-top: 5px;
+		  margin-bottom: 5px;
+		  display: flex;/*изображения галереи распределятся по странице по горизонтали*/
+		  flex-wrap: wrap;/*равномерно распредиляются по странице и переносятся на другую страницу веб-страницы*/
+		  justify-content:center;
+
+}
+#kh {
+	
+		  background: green;
+		  height: 50px;
+}
+
+#cursors {
+	      cursor: pointer;
+	
+}
+#titles {
+          border: 2px solid black;
+	      text-align: center;
+	     
+          
+}

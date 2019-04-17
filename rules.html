@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rules</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <table id = 'titles'>
+   <tr>
+    <td>UNIT</td>
+    <td>Lesson</td>
+    <td>Grammar/function</td>
+    <td>Vocabulary</td>
+    <td>Pronunciation</td>
+    <td>Reading</td>
+    <td>Listening/DVD</td>
+    <td>Speaking</td>
+    <td>Writing</td>
+   </tr>
+    <tr>
+    <td>1:1</td>
+    <td>Nice to meet you</td>
+    <td>Present Simple:be(am, is, are)</td>
+    <td>Countries and Nationalities</td>
+    <td>Word stress</td>
+    <td></td>
+    <td>Listen to people introduce themselves</td>
+    <td>Introduce yourself and otheers</td>
+    <td>Improve your use of capital letters</td>
+   </tr>
+    <tr>
+    <td>1:2</td>
+    <td>TRavel light</td>
+    <td>this/that, these/those; possessives</td>
+    <td>Objects</td>
+    <td>Word stress; this,that,these,those</td>
+    <td>Read about traveling light</td>
+    <td></td>
+    <td>Identify objects</td>
+    <td></td>
+   </tr>
+    <tr>
+    <td>1:3</td>
+    <td>Can I have a coffee?</td>
+    <td>Making requests</td>
+    <td>Tourist places</td>
+    <td>Polite information; sentence stress</td>
+    <td></td>
+    <td>Understand people in tourist situations</td>
+    <td>Make requests</td>
+    <td></td>
+   </tr>
+    <tr>
+    <td>1:4</td>
+    <td>Fawlty Towers</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Fawlty Towers: watch an extract from a sitcom about a hotel</td>
+    <td>Check into a hotel</td>
+    <td>Complete a registration form at a hotel</td>
+   </tr>
+  </table>
+  <div class="containers">
+
+    <div class="nav">
+      <h2>Rules</h2>
+      
+        <h3>Present Simple (to be)</h3>
+         <ul>
+          <li>I <mark>am</mark> student.</li>
+          <li>You <mark>are</mark> student.</li>
+          <li>She/He/It <mark>is</mark> student.</li>
+        </ul>
+        <ol>
+          <li>I <mark>am not</mark> student.</li>
+          <li>You <mark>are not</mark> student.</li>
+          <li>She/He/It <mark>is not</mark> student.</li>
+        </ol>
+        <ul style="list-style-type: square;">
+          <li><mark>Am</mark> I student? Yes, I am/ No, I am not.</li>
+          <li><mark>Are</mark> you student? Yes, I am/ No, I am not.</li>
+          <li><mark>Is</mark>She/He/It student?Yes, She/He/It is/ No, She/He/It is not.</li>
+         </ul>
+        <h3> This/that and These/those</h3>
+       <ul style="list-style-type: circle;">
+        <li>This <mark>is</mark> my bag.</li>
+        <li>That <mark>is</mark> your bag.</li>
+        <li>These <mark>are</mark> our bag<ins>s</ins>.</li>
+        <li>Those <mark>are</mark> their bag<ins>s</ins>.</li>
+      </ul>
+      <ol type="A">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ol>
+      <ol type="a">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ol>
+      <ol type="I" id = 'cursors'>
+        <li>Welcome</li>
+        <li>LifeStyle</li>
+        <li>People</li>
+        <li>Places</li>
+        <li>Food</li>
+        <li>The past</li>
+        <li>Holidays</li>
+        <li>now</li>
+        <li>Transport</li>
+        <li>Plans</li>
+        <li>Health</li>
+        <li>Experiences</li>
+      </ol>
+    </div>
+    <img id="langv" src="https://englex.ru/wp-content/uploads/top-13-advice-on-how-to-start-speaking-soon-1.png">
+  </div>
+  <br>
+  <div id="figure">
+  <div class="area"></div>
+  <hr>
+   <div class="area1"></div>
+   <hr>
+   <div class="area2"></div>
+ </div>
+ <br>
+ <br>
+ <br>
+   <div>
+    <div id="choose-unit">
+      <p>Please chooose unit which you want study today</p>
+      <select name="units" id="un" onchange="Choose()">
+         <option value="">Unit 1</option> 
+         <option>Unit 2</option>
+         <option>Unit 3</option>
+         <option>Unit 4</option>
+         <option>Unit 5</option>
+         <option>Unit 6</option>
+         <option>Unit 7</option>
+         <option>Unit 8</option>
+         <option>Unit 9</option>
+         <option>Unit 10</option>
+         <option>Unit 11</option>
+         <option>Unit 12</option>
+   </select>
+   <br>
+   <br>
+  </div>
+  <input type="number" id="number" min="1" max="12">You can choose unit in 1 to 12
+  <br>
+  <br>
+<section id="sect">
+  <label  onchange="check()">Unit 1<input type="checkbox" id="one"></label>
+  <label  onchange="check()">Unit 2<input type="checkbox" id="two"></label>
+  <label  onchange="check()">Unit 3<input type="checkbox" id="three"></label>
+  <label  onchange="check()">Unit 4<input type="checkbox" id="four"></label>
+  <label  onchange="check()">Unit 5<input type="checkbox" id="five"></label>
+  <label  onchange="check()">Unit 6<input type="checkbox" id="six"></label>
+  <label  onchange="check()">Unit 7<input type="checkbox" id="seven"></label>
+  <label  onchange="check()">Unit 8<input type="checkbox" id="eight"></label>
+  <label  onchange="check()">Unit 9<input type="checkbox" id="nine"></label>
+  <label  onchange="check()">Unit 10<input type="checkbox" id="ten"></label>
+  <label  onchange="check()">Unit 11<input type="checkbox" id="eleven"></label>
+  <label  onchange="check()">Unit 12<input type="checkbox" id="twelve"></label>
+</section>
+  <br>
+  <br>
+  <span>Start</span>
+  <input type="range" name="range" minlength="0" maxlength="12">
+  <span>Stop</span>
+  <br>
+  <br>
+  <div id="rad">
+  <input type="radio" name="r12" value="1">1
+   <input type="radio" name="r12" value="2">2
+    <input type="radio" name="r12" value="3">3
+     <input type="radio" name="r12" value="4">4
+      <input type="radio" name="r12" value="5">5
+       <input type="radio" name="r12" value="6">6
+        <input type="radio" name="r12" value="7">7
+         <input type="radio" name="r12" value="8">8
+          <input type="radio" name="r12" value="9">9
+           <input type="radio" name="r12" value="10">10
+           <input type="radio" name="r12" value="11">11
+             <input type="radio" name="r12" value="12">12
+  </div>
+</div>
+<script src="checking.js"></script>
+<script src="tableb2.js"></script>
+</body>
+<footer>
+  <address id="kh">
+    Kharkiv,
+    Ukraine,
+    61001
+  </address>
+</footer>
+</html>
